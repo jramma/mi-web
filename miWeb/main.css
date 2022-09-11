@@ -1,0 +1,118 @@
+body{
+	 background-color: #272727;
+	 color: #ccc;
+   font-family: "Times New Roman";
+
+}
+
+#menu {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    /*overflow: hidden;*/
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #333;
+    left:0;
+    height: 36px;
+}
+
+#menu  li{
+   float: left;
+   margin-left: 8px;
+}
+#menu li:hover{
+    background-color: rgba(0,0,0,0.2);
+    border-radius:  8px 8px 0px 0px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+#menu li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.active {
+    background-color: #00AC60;
+    opacity:0.8;
+}
+#desplegable{
+    text-decoration: none;
+    border: none;
+    background: none;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+#right{
+    float: right;
+    margin-right: 8px;
+}
+.mode:hover {
+    background-color: whitesmoke;
+    color:black;
+
+}
+div#right:hover a.mode{
+    color:black;
+}
+
+/*menu desplegable*/
+/*-------------------------------------------*/
+button#idioma {
+    color:white ;
+    border: none;
+    background: none;
+    font-family: "Times New Roman";
+    font-size: 1.1em; 
+    margin-top: 1px;
+}
+div#idiomas{
+    display:none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 0px 0px 6px 6px;
+}
+li#desplegable:hover div#idiomas{
+    display:block;
+}
+li#desplegable:hover #menu{
+    overflow: visible;
+}
+li#desplegable a:hover{
+    background-color: #333;
+    border-radius: 6px;
+
+}
+
+/*contenido*/
+/*-------------------------------------------*/
+
+.contenido{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    text-indent:40px;
+    background-color:grey 0.5;
+    padding: 8px;
+     
+}
+
+#retrato{
+     margin-left: auto;
+     margin-right: auto;
+     width:40%;
+     display:block;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+
+
+
