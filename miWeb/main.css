@@ -1,7 +1,10 @@
+html {
+    font-family: 'Times New Roman';
+}
+
 body{
 	 background-color: #272727;
 	 color: #ccc;
-   font-family: "Times New Roman";
 
 }
 
@@ -15,18 +18,20 @@ body{
     width: 100%;
     background-color: #333;
     left:0;
-    height: 36px;
+    height: 50px;
 }
 
 #menu  li{
    float: left;
    margin-left: 8px;
+   padding: 8px;
 }
 #menu li:hover{
     background-color: rgba(0,0,0,0.2);
     border-radius:  8px 8px 0px 0px;
     margin-top: 2px;
     cursor: pointer;
+    height:32px;
 }
 #menu li a{
     display: block;
@@ -53,29 +58,30 @@ body{
     float: right;
     margin-right: 8px;
 }
-.mode:hover {
+li#mode:hover {
     background-color: whitesmoke;
     color:black;
+    border-radius: 8px;
 
 }
-div#right:hover a.mode{
+li#mode:hover a{
     color:black;
 }
 
 /*menu desplegable*/
 /*-------------------------------------------*/
 button#idioma {
+     font-family: "Times New Roman";
     color:white ;
     border: none;
     background: none;
-    font-family: "Times New Roman";
     font-size: 1.1em; 
-    margin-top: 1px;
+    margin-top: 3px;
 }
 div#idiomas{
     display:none;
     position: absolute;
-    background-color: rgba(0,0,0,0.2);
+    background-color: #190609;
     border-radius: 0px 0px 6px 6px;
 }
 li#desplegable:hover div#idiomas{
@@ -113,6 +119,78 @@ li#desplegable a:hover{
      margin-bottom: 50px;
 }
 
+.fotografia{
+    width: auto;
+    height: 600px;
+    display:block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a#miGit{
+        text-decoration: none;
+        background-color: #21211d;
+        color: #FFF;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        margin: 50px;
+
+}
+.center {
+    text-align: center;
+    margin:40px;
+}
+.footer{
+        margin: 40px;
+}
+.footer p{
+    float: left;
+}
+.footer a{
+    float: right;
+        text-decoration: none;
+        color: #FFF;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        margin-left: 8px;
+}
+.footer a:hover{
+    color: #ab2a3e;
+}
+
+div.descripcion li{
+    list-style-type: none;
+
+}
+div.redes a{
+        text-decoration: none;
+        background-color: #21211d;
+        color: #FFF;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        margin: 50px;
+}
+
+embed {
+    margin-top: 50px;
+    margin-bottom:50px;
+    height: 1000px;
 
 
 
+}
+
+.contact_text {
+    margin-top: 100px;
+    text-align: center; 
+
+}
+
+div.redes a:hover{
+    color: #ab2a3e;
+}
