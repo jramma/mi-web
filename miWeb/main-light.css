@@ -3,8 +3,8 @@ html {
 }
 
 body{
-	 background-color: #272727;
-	 color: #ccc;
+	 background-color: #dfdfd2;
+	 color: black;
 
 }
 
@@ -33,7 +33,7 @@ ul#menu{
 }
 #menu li a{
     display: block;
-    color:white;
+    color:black;
     text-align:center;
     padding: 8px;
     text-decoration: none;
@@ -54,14 +54,14 @@ ul#menu{
     margin-right: 8px;
 }
 li#mode:hover {
-    background-color: whitesmoke;
-    color:black;
+    background-color: #333;
+    color:white;
     border-radius: 8px;
 
 
 }
 li#mode:hover a{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 .active {
@@ -74,7 +74,7 @@ li#mode:hover a{
 /*-------------------------------------------*/
 button#idioma {
      font-family: "Times New Roman";
-    color:white ;
+    color:black ;
     border: none;
     background: none;
     font-size: 1.1em; 
@@ -83,7 +83,7 @@ button#idioma {
 div#idiomas{
     display:none;
     position: absolute;
-    background-color: #190609;
+    background-color: grey;
     border-radius: 0px 0px 6px 6px;
 }
 li#desplegable:hover div#idiomas{
@@ -93,7 +93,7 @@ li#desplegable:hover #menu{
     overflow: visible;
 }
 li#desplegable a:hover{
-    background-color: #333;
+    background-color: #dfdfd2;
     border-radius: 6px;
 
 }
