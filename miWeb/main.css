@@ -8,12 +8,11 @@ body{
 
 }
 
-#menu {
+ul#menu{
     list-style-type:none;
     margin:0;
     padding:0;
     /*overflow: hidden;*/
-    position: fixed;
     top:0;
     width: 100%;
     background-color: #333;
@@ -25,6 +24,7 @@ body{
    float: left;
    margin-left: 8px;
    padding: 8px;
+   background-color: #333;
 }
 #menu li:hover{
     background-color: rgba(0,0,0,0.2);
@@ -41,11 +41,11 @@ body{
     text-decoration: none;
 
 }
-
-.active {
-    background-color: #ab2a3e;
-    opacity:0.8;
+.active a{
+    background-color:#ab2a3e; 
+    border-radius: 8px;
 }
+
 #desplegable{
     text-decoration: none;
     border: none;
@@ -57,6 +57,7 @@ body{
 #right{
     float: right;
     margin-right: 8px;
+    background-color: #333;
 }
 li#mode:hover {
     background-color: whitesmoke;
@@ -66,6 +67,11 @@ li#mode:hover {
 }
 li#mode:hover a{
     color:black;
+}
+
+.active {
+    background-color: #ab2a3e;
+    opacity:0.9;
 }
 
 /*menu desplegable*/
@@ -120,8 +126,8 @@ li#desplegable a:hover{
 }
 
 .fotografia{
-    width: auto;
-    height: 600px;
+    width: 100%;
+    height: auto;
     display:block;
     margin-top: 50px;
     margin-bottom: 50px;
